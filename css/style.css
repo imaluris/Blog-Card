@@ -98,4 +98,8 @@ body {
   .cardTitle {
     font-size: 20px;
   }
+
+  .cardDescription{
+    font-size: 14px;
+  }
 }
