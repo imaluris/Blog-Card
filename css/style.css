@@ -1,0 +1,95 @@
+@font-face {
+  font-family: "Figtree";
+  src: url("./assets/fonts/Figtree-VariableFont_wght.ttf") format("truetype");
+  font-weight: 100 900; /* tutti i pesi */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Figtree";
+  src: url("./assets/fonts/Figtree-Italic-VariableFont_wght.ttf")
+    format("truetype");
+  font-weight: 100 900;
+  font-style: italic;
+}
+
+body {
+  font-family: "Figtree", sans-serif;
+  font-weight: 500;
+  line-height: 1.5; /* 👈 fondamentale */
+  color: hsl(0, 0%, 7%);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: hsl(47, 88%, 63%);
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  width: 350px;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 20px;
+  box-shadow: 8px 8px 0px rgba(0, 0, 0, 1);
+  border: solid 1px hsl(0, 0%, 0%);
+  box-shadow: black 0px 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.cardImage img {
+  width: 100%;
+  border-radius: 15px;
+  display: block;
+  margin-bottom: 25px;
+}
+
+.cardTag {
+  align-self: flex-start;
+  background-color: hsl(47, 88%, 63%);
+  padding: 6px 12px;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 800;
+  display: inline;
+}
+
+.cardDate {
+  margin-top: 20px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.cardTitle {
+  color: hsl(0, 0%, 7%);
+  font-size: 24px;
+  font-weight: 800;
+  margin: 16px 0;
+}
+
+.cardDescription {
+  font-size: 16px;
+  color: hsl(0, 0%, 42%);
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.author {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.author img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.authorName {
+  font-size: 12px;
+  font-weight: 800;
+}
